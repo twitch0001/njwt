@@ -1,5 +1,9 @@
 defmodule Njwt do
-  use Rustler, otp_app: :njwt, crate: :njwt
+  use Rustler, 
+    otp_app: :njwt, 
+    crate: :njwt,
+    target: "x86_64-unknown-linux-gnu"
+
   @moduledoc """
   Documentation for `Njwt`.
   """
