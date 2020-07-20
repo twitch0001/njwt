@@ -1,4 +1,5 @@
 # Njwt
+WARNING: Not being maintained as I am now going to write an Elixir impl
 
 A JWT validator for a project I am currently working on 
 
