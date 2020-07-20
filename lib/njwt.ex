@@ -1,4 +1,5 @@
 defmodule Njwt do
+  use Rustler, otp_app: :njwt, crate: :njwt
   @moduledoc """
   Documentation for `Njwt`.
   """
@@ -15,4 +16,7 @@ defmodule Njwt do
   def hello do
     :world
   end
+
+  def peek_payload(_token), do: :erlang.nif_error(:nif_not_loaded)
+  def validate_token(_token, _key), do: :erlang.nif_error(:nif_not_loaded)
 end

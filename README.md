@@ -1,6 +1,6 @@
 # Njwt
 
-A simple JWT validator for Elixir.
+A JWT validator for a project I am currently working on 
 
 Why a NIF? you may ask. Well I did not want to make my own native elixir impl and it's a good time to get a bit better at rust
 
