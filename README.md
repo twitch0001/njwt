@@ -1,21 +1,16 @@
 # Njwt
 
-**TODO: Add description**
+A simple JWT validator for Elixir.
+
+Why a NIF? you may ask. Well I did not want to make my own native elixir impl and it's a good time to get a bit better at rust
+
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `njwt` to your list of dependencies in `mix.exs`:
+Add the following to your `mix.exs` file. I do not plan on adding this to hex.pm
 
 ```elixir
 def deps do
   [
-    {:njwt, "~> 0.1.0"}
+    {:njwt, git: "https://github.com/twitch0001/njwt.git"}
   ]
 end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/njwt](https://hexdocs.pm/njwt).
-
